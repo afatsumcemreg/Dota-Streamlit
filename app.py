@@ -796,7 +796,7 @@ def NLP():
 
         prediction_count = predict(inputs)
         if prediction_count == 1:
-            st.write("Prediction: ", '**CONGRATULATIONS! I THINK YOU WON THE GAME!')
+            st.write("Prediction: ", 'CONGRATULATIONS! I THINK YOU WON THE GAME!')
         else:
             st.write("Prediction: ", 'SORRY! I THINK YOU LOST THE GAME!')
 
