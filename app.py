@@ -41,7 +41,7 @@ def Dota():
     st.markdown(f'<h1 <p><font face="tahoma" size="130" color="white"><b>    DotA-2 Win Simulation</b></font></p> </h1>', unsafe_allow_html=True)
    
 
-    dsg = st.sidebar.selectbox('**Go to**', ["Intro", "Predict Probability"])
+    dsg = st.sidebar.selectbox('**Go to**', ["Introduction", "Predict Probability"])
     
     
     if dsg == "Intro":
